@@ -3,9 +3,8 @@ export class Ball {
     color: string;
     size: string;
     
-    constructor(id: number, color: string, size: string)
+    constructor(color: string, size: string)
     {
-        this.id = id;
         this.color = color;
         this.size = size;
     }
